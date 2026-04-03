@@ -1,0 +1,10 @@
+# Entrada
+valor = float(input("Digite o valor do produto: "))
+
+# Processamento
+imposto = 0.08
+imposto = valor * imposto
+valorfinal = valor + imposto
+
+# Saída
+print("Valor com acréscimo de 8%:", valorfinal)
