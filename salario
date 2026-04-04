@@ -1,0 +1,7 @@
+# Entrada
+horas = float(input("Digite as horas trabalhadas: "))
+valorhora = float(input("Digite o valor por hora: "))
+
+salario = horas * valorhora
+
+print("O Salário total é:", salario)
